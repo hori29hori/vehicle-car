@@ -30,8 +30,8 @@ public class Vehicle {
     }
 
     // diffメソッド：2つのVehicleの現在地の差を返す
-    public static int diff(Vehicle v1, Vehicle v2) {
-        return Math.abs(v1.getX() - v2.getX());
+    public static int diff(int v1, int v2) {
+        return Math.abs(v1 - v2);
     }
 }
 

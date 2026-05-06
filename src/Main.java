@@ -10,7 +10,7 @@ public class Main {
         System.out.println("v1 の現在地: " + v1.getX());
         System.out.println("v2 の現在地: " + v2.getX());
 
-        System.out.println("差分: " + Vehicle.diff(v1, v2));
+        System.out.println("差分: " + Vehicle.diff(v1.getX(), v2.getX()));
     }
 }
 
